@@ -1,8 +1,16 @@
 # blipyboard
-An 8 key macropad with an OLED screen and potentiometer for HackPad
+An 8 key macropad with an OLED screen and potentiometer for HackPad. It also has 8 SK6812 leds for lighting and utilizes custom KMK firmware.
 
-#**Schematic**
+# **CAD Model**
+<img width="841" alt="Screenshot 2025-06-27 at 9 58 29 PM" src="https://github.com/user-attachments/assets/e92d7d4b-3a6b-4e37-8724-f523f06b017e" /><br>
+Designed and Modeled using Fusion 360
 
+# **Schematic**
+<img width="706" alt="Screenshot 2025-06-27 at 10 01 06 PM" src="https://github.com/user-attachments/assets/000f60a1-58a0-45a9-8a31-e0d114c8ba91" />
+
+# **PCB**
+<img width="653" alt="Screenshot 2025-06-27 at 10 02 29 PM" src="https://github.com/user-attachments/assets/57fa6159-526c-46e0-9ad9-f86aee3644df" /><br>
+Schematic and PCB created using KiCad
 
 # **BOM**
 8x Cherry MX Switches<br>
