@@ -26,3 +26,6 @@ Schematic and PCB created using KiCad
 1x Custom PCB<br>
 1x 1kg spool of white filament from Amazon<br>
 I will print my own case
+
+# **Inspiration/Challenges**
+I created this macropad to learn more about hardware and firmware creation. While working on this hackpad, I encountered issues with the firmware, the pcb, and 3d models associated with the footprints. By looking at other people's submissions and asking for help on slack, I overcame these issues.
