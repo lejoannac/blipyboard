@@ -1,6 +1,9 @@
 # blipyboard
 An 8 key macropad with an OLED screen and potentiometer for HackPad
 
+#**Schematic**
+
+
 # **BOM**
 8x Cherry MX Switches<br>
 9x 1N4148 Diodes<br>
