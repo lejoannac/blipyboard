@@ -2005,12 +2005,6 @@
 		(uuid "a155e91a-24bf-4770-a08f-b66103444538")
 	)
 	(junction
-		(at 113.03 63.5)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "a2b994c6-1533-43f6-b91d-759be4ccec78")
-	)
-	(junction
 		(at 105.41 124.46)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -2276,7 +2270,7 @@
 	)
 	(wire
 		(pts
-			(xy 113.03 63.5) (xy 95.25 63.5)
+			(xy 95.25 63.5) (xy 121.92 63.5)
 		)
 		(stroke
 			(width 0)
@@ -2433,16 +2427,6 @@
 			(type default)
 		)
 		(uuid "e56d2116-7a31-42ec-944c-cfd4b2af87f7")
-	)
-	(wire
-		(pts
-			(xy 121.92 63.5) (xy 113.03 63.5)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "e58d005e-d60d-488b-aaa6-bc4ffd30bc64")
 	)
 	(wire
 		(pts
@@ -2629,28 +2613,6 @@
 		(uuid "5805439f-e39b-4e01-b0b7-4463702469da")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
 			(at 71.12 43.7025 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-	)
-	(global_label "ROUTPUT"
-		(shape input)
-		(at 113.03 55.88 90)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "5cad1b85-3056-4b7d-8d64-98354f728289")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 113.03 44.4281 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2990,28 +2952,6 @@
 			)
 		)
 	)
-	(global_label "RINPUT"
-		(shape input)
-		(at 36.83 36.83 180)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "ca306316-e19a-4578-9599-631a2b9cc911")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 27.0714 36.83 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-				(hide yes)
-			)
-		)
-	)
 	(global_label "3V3"
 		(shape input)
 		(at 193.04 93.98 0)
@@ -3025,50 +2965,6 @@
 		(uuid "d76d643a-1d7a-4fbc-a381-12a7604f809d")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
 			(at 199.5328 93.98 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-	)
-	(global_label "RINPUT"
-		(shape input)
-		(at 154.94 53.34 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "d7b348a6-fdd7-4cc4-b9bf-c92e3f0eedee")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 164.6986 53.34 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-	)
-	(global_label "ROUTPUT"
-		(shape input)
-		(at 154.94 58.42 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "d97a99b2-1652-4e60-99f9-54458a796b04")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 166.3919 58.42 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4921,94 +4817,6 @@
 			(project "hackpad"
 				(path "/82dbe48b-4e91-4863-9dbe-ebee03307ff6"
 					(reference "SW3")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "ScottoKeebs:Placeholder_Diode")
-		(at 113.03 59.69 90)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "d2757a62-5fd6-436f-a272-edfa97e09620")
-		(property "Reference" "D12"
-			(at 115.57 58.4199 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Value" "Diode"
-			(at 115.57 60.9599 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Footprint" "Diode_THT:D_DO-35_SOD27_P7.62mm_Horizontal"
-			(at 113.03 59.69 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 113.03 59.69 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "1N4148 (DO-35) or 1N4148W (SOD-123)"
-			(at 113.03 59.69 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Sim.Device" "D"
-			(at 113.03 59.69 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Sim.Pins" "1=K 2=A"
-			(at 113.03 59.69 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "a84560c4-dd0c-44c9-8d1f-bee53053cad5")
-		)
-		(pin "1"
-			(uuid "45dea4ca-feee-426d-9987-e85d22e4619a")
-		)
-		(instances
-			(project "hackpad"
-				(path "/82dbe48b-4e91-4863-9dbe-ebee03307ff6"
-					(reference "D12")
 					(unit 1)
 				)
 			)
